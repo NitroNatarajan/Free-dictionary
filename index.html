@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dictionary - Type and get info</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="searchForm" class="searchForm">
+            <h1 style="font-size: 3rem; margin-bottom:2rem; color:aliceblue;">Type and Learn English </h1>
+            <input type="text" class="searchInput" id="searchInput" placeholder="Enter a word">
+            <button type="submit" class="btn">Search</button>
+        </form>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="lexicalInfo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
